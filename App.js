@@ -3,7 +3,7 @@
 let weather = {
   fetchWeather: function (city) {
     fetch(
-      'http://api.openweathermap.org/data/2.5/weather?q=' +
+      'https://api.openweathermap.org/data/2.5/weather?q=' +
         city +
         '&units=metric&appid=f7218eb0888d13cec2fdb1c5693b9dbb'
     )
